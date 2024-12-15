@@ -8,17 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/all.min.js"></script>
+
 
     <style>
       html {
         min-height: 100%;
 
       }
-      
+      /*
       * {
         border: 1px red dashed
       }
-      
+      */
       body {
         min-height: 100%;
         padding: 40px 0px;
@@ -34,6 +36,10 @@
 
       .link-item {
         background-color: rgba(149, 123, 173, 0.5);
+        border-radius: 1000px;
+        padding: 5px;
+        padding-right: 53px;
+        box-shadow: #07405e 4px 4px 10px 0px;
       }
 
       .profile-image {
@@ -48,6 +54,14 @@
         height: 48px;
         border-radius: 48px;
         object-fit: cover;
+        padding: 4px;
+      }
+
+      .thumbnail_alt1 {
+        width: 48px;
+        height: 48px;
+        object-fit: scale-down;
+        padding: 4px;
       }
 
       .main-container {
@@ -99,20 +113,20 @@
       </div> <!-- /name-row -->
         
       <div class="social-icons-row">
-        <a href="https://github.com/DrewKrehel" target="_blank">GitHub</a>
-        <a href="https://www.linkedin.com/in/drew-krehel-6617bb5b/" target="_blank">LinkedIn</a>
-        <a href="https://www.instagram.com/thedruth78/" target="_blank">Instagram</a>
-        <a href="https://www.facebook.com/drew.krehel/" target="_blank">Facebook</a>
+        <a href="https://github.com/DrewKrehel" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/drew-krehel-6617bb5b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/thedruth78/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/drew.krehel/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
 
       </div> <!-- /social-icons-row -->
 
       <div class="links-row">
         <div class="link-item">
-          <img class="thumbnail" src="/images/LogoTest_02.png" alt="Drew Krehel logo">
+          <img class="thumbnail_alt1" src="/images/LogoTest_02.png" alt="Drew Krehel logo">
           <a class="link-text" href="https://drewkrehel.com/">Website</a>
         </div>
         <div class="link-item">
-          <img class="thumbnail" src="images/Zoard Games logo no bg.png" alt="Zoard Games logo">
+          <img class="thumbnail_alt1" src="images/Zoard Games logo no bg.png" alt="Zoard Games logo">
           <a class="link-text" href="https://www.facebook.com/zoardgames/">Zoardgames</a>
         </div>
         <div class="link-item">
