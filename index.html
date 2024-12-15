@@ -4,15 +4,31 @@
     <title>home page</title>
     <link href="" rel="stylesheet">
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <style>
+      html {
+        min-height: 100%;
+
+      }
+      
       * {
         border: 1px red dashed
       }
       
       body {
+        min-height: 100%;
         padding: 40px 0px;
+        background: linear-gradient(150deg, #003f5b, #07405e, #2b426f, #743d91, #df3f7a, #ff7741, #ff951c, #ff9913); /* made at https://learnui.design/tools/gradient-generator.html */
+        color: white;
+      }
 
+      a {
+        color: cyan;
+      }
+
+      .link-item {
+        background-color: rgba(149, 123, 173, 0.5);
       }
 
       .profile-image {
@@ -27,6 +43,11 @@
         height: 48px;
         border-radius: 48px;
         object-fit: cover;
+      }
+
+      .main-container {
+        max-width: 640px;
+        margin: auto;
       }
     </style>
 
