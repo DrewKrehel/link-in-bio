@@ -1,3 +1,2 @@
-# static-html-template
-
-Use this template to create static HTML websites and deploy them on Render.
+# Drew Krehel: Link-in-bio website
+This repository is used to create a custom list of links to share on social media.
